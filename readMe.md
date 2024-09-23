@@ -1,7 +1,8 @@
-<!-- ![Eduskill Logo](eduskill.png) -->
-<h1 style="text-algin">Google AI-ML Workshop At JDCOEM</h1>
+<h1 style="text-align: center;">Google AI-ML Workshop</h1>
 
-<p align="center">
-  <img src="eduskill.png" width="350" title="Eduskill">
-</p>
+<div style="display: flex; flex-direction: row;">
+    <img src="eduskill.png" alt="Eduskill Logo"> 
+    <img src="googledevlopement.png" alt="googledevlopement">
+</div>
 
+<p>This Workshop Conduct by the Eduskill. <br> Host of the Workshop is Mr. PAVAN KUMAR</p>
