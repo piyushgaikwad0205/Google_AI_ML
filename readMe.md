@@ -1,5 +1,7 @@
 <!-- ![Eduskill Logo](eduskill.png) -->
+<h1>Google AI-ML Workshop At JDCOEM</h1>
+
 <p align="center">
-  <img src="eduskill.png" width="350" title="hover text">
-  <img src="googledevlopement.png" width="350" alt="accessibility text">
+  <img src="eduskill.png" width="350" title="Eduskill">
 </p>
+
