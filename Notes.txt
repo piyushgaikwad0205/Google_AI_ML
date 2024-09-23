@@ -1,0 +1,39 @@
+% Day 1
+
+#(1) Resigstertion 
+#(2) Post Enrollment 
+#(3) Creating Devloper Profile (Showcase our skill)
+#(4) Understanding basic need and use of AI-MI
+#(5) Geting start with unit 1
+
+
+
+! Unit 1: Program Neural Networks with TensorFlow 
+
+    !! Stage : 1 The Hello World of Machine Learning 
+
+        % Why should wer use Machine Learning 
+
+            #What is AI : Understanding The surrounding Obseving Best Posssiblitliy
+            #What is ML : Tell How to Answer (Stucture of the Output)
+            #What is DL : Choose The Possiblitliy
+            
+            #Technology Use : TensorFlow , Numpy , Keras
+            #language Use : Python
+
+            #Keras Use For Build Neural Networks 
+
+
+            !! Assignment : Devloper a Neural Networks which pridict a House selling price which in return favarable for real E-states buisness 
+            !! if 1 bhk flat cost 10000 Rs , 2bhk flat cost : 10500 Rs , 3bhk flat cost Furture So , On 500 Rs will be incermented for additional bhks' (find out Price of 7 bhk)
+            !! Post 30 Days your ml model will be depolyed into real states buisness , Now builders want to sell 10 BHK House to a coustumer . Preper a Machince Learning Model which can perdict the Price
+
+            
+
+
+
+
+
+
+
+
