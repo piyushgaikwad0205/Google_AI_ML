@@ -10,7 +10,7 @@
 
 ! Unit 1: Program Neural Networks with TensorFlow 
 
-    !! Stage : 1 The Hello World of Machine Learning 
+    ! Stage : 1 The Hello World of Machine Learning 
 
         % Why should wer use Machine Learning 
 
@@ -28,7 +28,13 @@
             !! if 1 bhk flat cost 10000 Rs , 2bhk flat cost : 10500 Rs , 3bhk flat cost Furture So , On 500 Rs will be incermented for additional bhks' (find out Price of 7 bhk)
             !! Post 30 Days your ml model will be depolyed into real states buisness , Now builders want to sell 10 BHK House to a coustumer . Preper a Machince Learning Model which can perdict the Price
 
-            
+
+
+
+
+
+
+
 
 
 

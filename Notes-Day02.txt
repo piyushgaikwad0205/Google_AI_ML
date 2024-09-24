@@ -1,0 +1,86 @@
+% Day 2
+
+        ! The Hello World of Deep Learning with Neural Networks
+                # float my_function(float x){
+                # float y = (3 * x) + 1;
+                # return y;
+                # }
+
+       !! https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab1-Hello-ML-World.ipynb#scrollTo=fA93WUy1zzWf
+
+            # Let's start with our imports. Here we are importing TensorFlow and calling it tf for ease of use.
+
+            # We then import a library called numpy, which helps us to represent our data as lists easily and quickly.
+
+            # The framework for defining a neural network as a set of Sequential layers is called keras, so we import that too.
+                    
+        ! Important's Important 
+
+            # import tensorflow as tf
+            # import numpy as np
+            # from tensorflow import keras
+
+        ! Define and Compile the Neural Network
+
+            # Next we will create the simplest possible neural network. It has 1 layer, and that layer has 1 neuron, and the input shape to it is just 1 value.
+            # model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+
+
+        !! 3 reasos getting apporximate Answer
+
+           # 1) Limited data
+           # 2) Machince does'n know what will be the wrong value 
+           # 3) Didn't Thumb Rule 
+
+
+        !!                      100 
+        !!                       /\
+        !!                      /  \
+        !!                  80%      20%
+        !!           Traning Data  Testing Data
+
+
+% Day 2 Unit : Computer Vission
+
+            ! Percurted for the Machine Learning 
+
+                # 1) Data
+                # 2) Labels
+
+            ! Working on Black and White Images 
+
+                # Pixel Range of B&W : 0-255 px
+                # Task Get the Data in 0 and 1
+
+                #Example Pixel 
+
+                ! 150 B & W Pixel 
+
+                # 150 / 255  Normlization 
+                  
+                ! Train Images  / 255
+                ! Test Images / 255 
+
+                !! Purpose of Flatten : It's Convert Multidimissional data into 1D Data  keras.layer.Flatten(input_shape = 28,28)
+                !! RELU  : Avoiding Negitive Value (Replacing Negitve value in the 0 )
+                !! softmax : 
+
+                !! Optimizer :  scg , adam : Can Understanding Images Easy between 28 to 256 
+                !! Loss : comparision between system value and actual Output
+
+                !! Sqrt(784*10) = 88
+                !! 64     88    128
+                !! SQRT( upper layer's pervious layer value * Neurons = Current_Layer Neurons ) 
+
+                !! class myCallback(tf.keras.callbacks.Callback):
+                !!  def on_epoch_end(self, epoch, logs={}):
+                !!            if(logs.get('accuracy')>0.95):
+                !!              print("\nReached 95% accuracy so cancelling training!")
+                !!              self.model.stop_training = True
+                !!              callbacks = myCallback()
+               
+
+
+
+
+
