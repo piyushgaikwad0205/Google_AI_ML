@@ -78,6 +78,54 @@
                 !!              print("\nReached 95% accuracy so cancelling training!")
                 !!              self.model.stop_training = True
                 !!              callbacks = myCallback()
+
+                parameter calculation 
+                L1 = 2D
+                number of filters used is 64
+                filter size = 3,3
+
+                3*3*1+1*64 =
+                here *1 is color depth
+                +1 is by 
+                *64 is current layer neurons 
+
+                image size = 28,28
+                            -2,-2 (boundery effect)
+                            =26,26
+                L2 = Maxpooling = 2,2
+                26,26
+                /2,/2
+                =13,13
+
+                L3 = convolution = 3,3 
+                calculation = 3*3*64+1*64
+                3*3 = filter size 
+                64 = L1 Output
+                +1 = bias
+                *64 = current layer neurons 
+                image size = 13,13
+                            -2,-2(_boundrey effect)
+                            =11,11
+
+                input type = maxpooling 
+                11,11
+                /2,/2
+                =5,5
+
+                L5 = flatten 
+                5*5*64
+                
+                L6
+                1600+1*128=
+                1600 = flatten layer output value 
+                +1 = bias
+                128 = current layer neurons
+
+                L7 
+                128+1*10
+                10 = curr        ent layer neurons
+        
+
                
 
 
